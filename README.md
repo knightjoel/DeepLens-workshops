@@ -6,17 +6,17 @@ The workshop consists of 2 hands-on lab sessions:
 
 ### Hands-on Lab 1: Build and train a face detection model in SageMaker
 
-In this lab, you will build and train a face detection model. You can find the instructions here: [SageMaker lab](https://github.com/fibbonnaci/DeepLens-workshops/tree/master/SageMaker%20lab)
+In this lab, you will build and train a face detection model. You can find the instructions here: [SageMaker lab](tree/master/SageMaker%20lab)
 
 ### Hands-on Lab 2: Register your DeepLens and deploy to device.
 
-The instructions for this hands-on lab are here: [Registration and deployment](https://github.com/fibbonnaci/DeepLens-workshops/blob/master/Registration%20and%20project%20deployment/readme.md)
+The instructions for this hands-on lab are here: [Registration and deployment](blob/master/Registration%20and%20project%20deployment/readme.md)
 
 ### Hands-on Lab 3: Build a project to detect faces and send the cropped faces to an S3 bucket
 
-The instructions for this hands-on lab are here: [Extending the Project](lab3-extending-the-project.md)
+The instructions for this hands-on lab are here: [Extending the Project](blob/master/lab3-extending-the-project.md)
 
 ### Hands-on Lab 4: Identify emotions
 
-The instructions for this hands-on lab are here: [Identify emotions](lab4-identify-emotions.md)
+The instructions for this hands-on lab are here: [Identify emotions](blob/master/lab4-identify-emotions.md)
 
