@@ -9,7 +9,7 @@ Go to [AWS Management console](https://console.aws.amazon.com/console/home?regio
 - Primary key: `s3key`
 - Click on **Create**. This will create a table in your DynamoDB.
 
-**Step 2- Create a role for cloud lambda function**
+**Step 2- Create a role for the Lambda function**
 
 Go to [AWS Management console](https://console.aws.amazon.com/console/home?region=us-east-1) and search for IAM
 
