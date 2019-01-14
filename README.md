@@ -10,5 +10,13 @@ In this lab, you will build and train a face detection model. You can find the i
 
 ### Hands-on Lab 2: Register your DeepLens and deploy to device.
 
-The instructions for this hands-on lab is here: [Registration and deployment](https://github.com/fibbonnaci/DeepLens-workshops/blob/master/Registration%20and%20project%20deployment/readme.md)
+The instructions for this hands-on lab are here: [Registration and deployment](https://github.com/fibbonnaci/DeepLens-workshops/blob/master/Registration%20and%20project%20deployment/readme.md)
+
+### Hands-on Lab 3: Build a project to detect faces and send the cropped faces to an S3 bucket
+
+The instructions for this hands-on lab are here: [Extending the Project](lab3-extending-the-project.md)
+
+### Hands-on Lab 4: Identify emotions
+
+The instructions for this hands-on lab are here: [Identify emotions](lab4-identify-emotions.md)
 
