@@ -44,7 +44,7 @@ Click **Create notebook instance**.
 
 You can view all your notebook instances by choosing **Notebook instances** on the left menu. It will take couple of minutes for the notebook instance to be created.
 
-![instances](notebook-instances.jpg)
+![instances](notebook-instances.png)
 
 ### Step 4- Upload and open notebook
 
