@@ -1,6 +1,6 @@
 In this lab session, you will learn how to build and train a model in Amazon SageMaker.
 
-Before we begin, download the repo to your local directory. You can download the repo from [root directory](https://github.com/fibbonnaci/DeepLens-workshops).
+Before we begin, download the repo to your local directory. You can download the repo from [root directory](https://github.com/knightjoel/DeepLens-workshops).
 
 Click the **Clone or download** button on the right and choose **Download ZIP**.
 
@@ -22,6 +22,7 @@ Click on **Create Notebook instance**
 
 1. Provide the name of the notebook as `face-detection-`_your-name_
 2. Notebook instance type: `ml.t2.medium`
+3. Elastic Inference: `None`
 3. IAM role: Click **Create a new role**
 
 In the dialog box that opens up:
@@ -41,23 +42,31 @@ Click **Create notebook instance**.
 
 ### Step 3- View notebook instances
 
-You can view all your notebook instances by choosing **Notebook** on the left menu. It will take couple of minutes for the notebook instance to be created.
+You can view all your notebook instances by choosing **Notebook instances** on the left menu. It will take couple of minutes for the notebook instance to be created.
 
-![instances](https://user-images.githubusercontent.com/11222214/38314549-541e9140-37db-11e8-89eb-ec9be1677271.JPG)
+![instances](notebook-instances.jpg)
 
 ### Step 4- Upload and open notebook
 
-Open your notebook from the **View notebook** page. Choose the **Upload** button once the notebook has opened.
+Open the Jupyter Notebooks interface for the notebook instance you just created
+by clicking on **Open Jupyter** in the Actions column.
 
-- Find the `SSD_Object_Detection_SageMaker_v3.ipynb` file (You can find it in the `SageMaker lab` directory of the extracted repo. You downloaded and extracted the zip file earlier in the process).
-- Click **Upload**
-- You can choose your uploaded notebook and click on **Open**. This will open your Jupyter notebook.
+- Extract the zip file you downloaded earlier and find the
+`SSD_Object_Detection_SageMaker_v3.ipynb` file. You'll find it in the
+`SageMaker lab` folder.
+- In the Jupyter Notebooks interface, click the **Upload** button, browse
+to the `SSD_Object_Detection_SageMaker_v3.ipynb` file and upload it.
+- The file should now appear in the list of files in Jupyter Notebooks. Click
+the file name which will open it in Jupyter Notebooks.
 
 ![jupyter](https://user-images.githubusercontent.com/11222214/38314946-427aa6e4-37dc-11e8-91bf-658ebe7b2a7b.JPG)
 
 ### Step 5- Execute notebook
 
 Execute the cells by clicking on the `Run` button or using shift+enter on your keyboard.
+
+**NOTE** the notebook will execute each cell in turn so you must click
+the **Run** button once for each cell in the notebook.
 
 ![run](https://user-images.githubusercontent.com/11222214/38316244-21a07194-37df-11e8-9821-21d5d6e57976.JPG)
 
