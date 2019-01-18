@@ -10,9 +10,9 @@ The instructions for this hands-on lab are here: [Registration and deployment](R
 
 ### Hands-on Lab 2: Build a project to detect faces and send the cropped faces to an S3 bucket
 
-The instructions for this hands-on lab are here: [Extending the Project](lab3-extending-the-project.md)
+The instructions for this hands-on lab are here: [Extending the Project](lab-extending-the-project.md)
 
 ### Hands-on Lab 3: Identify emotions
 
-The instructions for this hands-on lab are here: [Identify emotions](lab4-identify-emotions.md)
+The instructions for this hands-on lab are here: [Identify emotions](lab-identify-emotions.md)
 

@@ -1,4 +1,4 @@
-# Hands-on Lab 3: Build a project to detect faces and send the cropped faces to an S3 bucket
+# Hands-on Lab: Build a project to detect faces and send the cropped faces to an S3 bucket
 
 #### IAM Roles:
 

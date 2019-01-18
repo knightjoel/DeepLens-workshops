@@ -1,4 +1,4 @@
-# Hands-on Lab 4: Identify emotions
+# Hands-on Lab: Identify emotions
 
 **Step 1- Create DynamoDB table**
 
