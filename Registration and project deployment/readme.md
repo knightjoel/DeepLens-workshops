@@ -193,7 +193,7 @@ View output and enjoy!
 
 Step 2- Choose your browser. Follow the instructions
 
-![step 1 view output](https://user-images.githubusercontent.com/11222214/41580333-67a45326-734f-11e8-9219-503499a118dc.JPG)
+![step 1 view output](view-output.png)
 
 Step 3- Click on **View stream**
 
