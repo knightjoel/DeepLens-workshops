@@ -62,7 +62,7 @@ def push_to_s3(img, index):
 
         timestamp = int(time.time())
         now = datetime.datetime.now()
-        key = "faces/{}_{}/{}_{}/{}_{}.jpg".format(now.month, now.day,
+        key = "faces/{}-{}-{}-{}-{}-{}.jpg".format(now.month, now.day,
                                                    now.hour, now.minute,
                                                    timestamp, index)
 
@@ -70,7 +70,7 @@ def push_to_s3(img, index):
 
         encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
         _, jpg_data = cv2.imencode('.jpg', img, encode_param)
-        response = s3.put_object(ACL='public-read',
+        response = s3.put_object(ACL='private',
                                  Body=jpg_data.tostring(),
                                  Bucket=bucket_name,
                                  Key=key)
