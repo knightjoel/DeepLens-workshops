@@ -1,6 +1,6 @@
 ## Register AWS DeepLens
 
-Visit [AWS Management Console](https://console.aws.amazon.com/console/home?region=us-east-1). Make sure you are on US-East (N.Virginia) region.
+Visit [AWS Management Console](https://console.aws.amazon.com/console/home?region=us-east-1). Make sure you are in **US-East (N.Virginia) region**.
 
 Search for DeepLens in the search bar and select AWS DeepLens to open the console.
 
@@ -68,17 +68,17 @@ Power ON your device
 
 ### Step 4- Connect to your network
 
-Select your local Wi-Fi network ID from the dropdown list and enter your WiFi password. If you are using ethernet, choose Use Ethernet option instead.
+Select your local Wi-Fi network ID from the dropdown list and enter your WiFi password. If you are using Ethernet, choose **Use Ethernet** option instead.
 
-Select Save.
+Select **Save**.
 
 ![network connection](https://user-images.githubusercontent.com/11222214/38657139-77c96aa4-3dd3-11e8-8cba-97dc3c47fc66.JPG)
 
-If this is your first time registering the device, you will see the updates available screen. Choose **Install and Reboot** It will take couple of minutes for the updates to come through. After the updates are installed, the device will reboot automatically
+If this is your first time registering the device, you will see the "Updates Available" screen. Choose **Install and Reboot**. It will take a couple of minutes for the updates to come through. After the updates are installed, the device will reboot automatically.
 
 ![install and reboot](https://user-images.githubusercontent.com/11222214/41579269-14d84e30-734b-11e8-8894-c4a76f1715d5.JPG)
 
-On rebooting, the device will come back to the install and reboot screen. From the URL, delete the #softwareUpdate
+On rebooting, the device will come back to the "Install and Reboot" screen. From the URL, delete `#softwareUpdate`.
 
 ![software update remove](https://user-images.githubusercontent.com/11222214/41579379-a3deed32-734b-11e8-894a-c209cb7a7cca.JPG)
 
