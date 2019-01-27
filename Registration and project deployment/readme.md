@@ -8,33 +8,40 @@ On the AWS DeepLens console screen, find the Get started section on the right ha
 
 ![register device landing page](https://user-images.githubusercontent.com/11222214/38656972-a73f8bd4-3dd2-11e8-8275-0486f8d78d2d.JPG)
 
-### Step 1- Provide a name for your device.
+### Step 1- Configure your AWS Account
 
-Enter a name for your DeepLens device (for example, “MyDevice”), and select Next.
+Enter a name for your DeepLens device (for example, “MyDeepLens”).
 
-![name device](https://user-images.githubusercontent.com/11222214/38656982-b8d2b3d0-3dd2-11e8-9d00-060ccf015d0c.JPG)
+![name device](register-deeplens-device-1.png)
 
-### Step 2- Provide permissions
+If this is the first time setting up a DeepLens in your AWS account, you will
+need to setup an Identity and Access Management (IAM) role. Click **Create
+roles** if you see that button. Otherwise, your roles are setup and you can
+continue to the next step.
 
-AWS DeepLens projects require different levels of permissions, which are set by AWS Identity and Access Management (IAM) roles. When registering your device for the first time, choose **Create roles** under Permissions to have the required IAM roles created. 
+![create roles](register-deeplens-device-2.png)
 
-![create roles](https://user-images.githubusercontent.com/11222214/41578790-cad777a4-7348-11e8-97b1-b12f9a8f6549.jpg)
+Download the certificate (which will later on be uploaded to the DeepLens).
+Make a note of where you save the zip file but don't extract it; you will
+upload the whole zip file to the DeepLens.
 
-Then choose **Next**
+Once you've downloaded the certificate, the **Next** button will illuminate.
+Click **Next**.
 
-![create roles- next](https://user-images.githubusercontent.com/11222214/41578802-e0c3ccc0-7348-11e8-9690-27adb740049c.jpg)
+![download certificate](register-deeplens-device-3.png)
 
-### Step 3- Download certificate
-In this step, you will download and save the required certificate to your computer. You will use it later to enable your DeepLens to connect to AWS.
+### Step 2- Connect to your device
 
-Select Download certificate and note the location of the certificates.zip file. Note: Do not open the zip file. You will attach this zip file later on during device registration.
+At this step, the AWS console will display detailed instructions for
+configuring your DeepLens device. Follow the instructions for powering on
+and connecting to the DeepLens.
 
-![download certificate](https://user-images.githubusercontent.com/11222214/41578863-2fe8e4e8-7349-11e8-999b-8b4890bd4136.JPG)
+Once you are connected to the DeepLens Wi-Fi network, click **Next**. A new
+browser window/tab should open for `http://deeplens.amazon.net`. This is
+a dummy URL which will redirect you to the DeepLens device configuration
+page and will only work when you're connected to the DeepLens' Wi-Fi network.
 
-Select **Continue.**
-
-![download certificate- continue](https://user-images.githubusercontent.com/11222214/41578893-5b928842-7349-11e8-867b-bf79d293bd2f.JPG)
-
+![power on deeplens](register-deeplens-device-4.png)
 
 ## Configure your DeepLens
 
